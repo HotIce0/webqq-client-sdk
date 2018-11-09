@@ -1,8 +1,10 @@
-##WebQQ Client SDK by Hotice0
-##Description
+## WebQQ Client SDK by Hotice0
+
+## Description
 1. The complete webQQ client sdk, Base on WebQQ 2.0(https://web2.qq.com/) protocol, coding with python2.
 2. You can build a QQ chat robot with this sdk, And more creative functions.
-##Project Structure
+
+## Project Structure
 - main.py : Demo of using sdk.
 - webqq_client_sdk
     - requirements.txt : `Requirements output with cmd : pip2.7 freeze > webqq_client_sdk/requirements.txt`
@@ -16,14 +18,18 @@
         - Discussion.py : `Discussion Data Models`
         - Categories.py : `Friend Categories Data Models`
         - Rencent.py    : `Rencent Contacts Data Models`
-##Usage
+        
+## Usage
 1. install requirements. run `pip install -r webqq_client_sdk/requirements.txt`
 2. run the main.py (Demo)
-##Version Log
+
+## Version Log
 2018.11.9 version 0.01 basic function
-##Notice
+
+## Notice
 1. Can't set stats when loging.But you can change the stats after logined with call WebQQClient.change_status()
-##Lisencse
+
+## Lisencse
 
 MIT License
 
